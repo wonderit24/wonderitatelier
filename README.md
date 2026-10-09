@@ -1,5 +1,7 @@
 # Wonderit Design Atelier
 
+A website for the Wonderit design portfolio.
+
 A responsive, single-page portfolio built with plain HTML, CSS and vanilla JavaScript. It has no package install or build step. Uploaded design art is shown from local, web-optimized JPEG copies.
 
 ## Run locally
@@ -19,7 +21,7 @@ A responsive, single-page portfolio built with plain HTML, CSS and vanilla JavaS
    Product items use `type: "product"` and include a short product description. Design filter buttons are generated automatically from the design categories. Use one of `Logos`, `Flyers`, `Branding`, `Social Media` or `Other`, or add your own category.
 3. Use a meaningful title and description; these are shown in the lightbox and used for image alt text. Images load lazily. The uploaded design originals remain in `images/designs/`, and their optimized copies are in `images/designs/optimized/`. Product originals remain in `images/products/`, with optimized copies in `images/products/optimized/`.
 
-The galleries currently include 34 design pieces and six Culmino Labs product and brand mockups. Categories are assigned in `js/gallery-data.js` based on the artwork: logos, flyers, branding, social media, and other design formats.
+The galleries currently include 34 design pieces and six Culmino Labs product and brand mockups. Categories are assigned in `js/gallery-data.js` based on each design.
 
 Recommended image size: about 1200px wide, compressed JPG or WebP, under 300 KB. SVG can also be used for vector artwork.
 
